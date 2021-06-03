@@ -1,7 +1,0 @@
-<view>
-  <image src="/images/avatar/avatar-1.jpg"></image>
-  <text>Hello,橘子罐头</text>
-  <view>
-    <text>开启小程序之旅</text>
-  </view>
-</view>

@@ -1,0 +1,14 @@
+<!-- 数据绑定非常简单，只要将data对象的属性名填入到双大括号{{}}中即可。MINA框架会自动在运行时用data数据替换这些{{}}。比如{{date}}，在运行后将被替换为“Jan 28 2017”，而{{readingNum}}将被替换为“92”。 -->
+
+<view class="container">
+  <image class="head-image" src="{{post.postImg}}"></image>
+  <text class="title">{{post.title}}</text>
+  <view class="author-date">
+  <view class="author-box">
+    <image class="avatar" src="{{post.avatar}}"></image>
+    <text class="author">{{post.author}}</text>
+  </view>
+  <text class="date">{{post.dateTime}}</text>
+  </view>
+  <text class="detail">{{post.detail}}</text>  
+</view>
